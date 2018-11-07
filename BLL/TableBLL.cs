@@ -14,6 +14,15 @@ namespace BLL
         {
             return Connection.DBContext.Tables.Where(t => t.AreaID == area.ID).ToList();
         }
+        public List<Table> ListTablesIsOrder(Area area)
+        {
+            return Connection.DBContext.Tables.Where(t => t.AreaID == area.ID && t.Status == 1).ToList();
+        }
+
+        public List<Table> ListTablesIsNotOrder(Area area)
+        {
+            return Connection.DBContext.Tables.Where(t => t.AreaID == area.ID && t.Status == 0).ToList();
+        }
 
         public Table CreateTable(Table table)
         {

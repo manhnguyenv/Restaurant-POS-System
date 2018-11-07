@@ -18,10 +18,11 @@ namespace GUI
             Application.SetCompatibleTextRenderingDefault(false);
             Login loginForm = new Login();
             DialogResult dr = loginForm.ShowDialog();
-            if(dr == DialogResult.OK)
+            if (dr == DialogResult.OK)
             {
                 Application.Run(new FeatureSelector());
             }
+            //Application.Run(new ChangeTable());
         }
     }
 }

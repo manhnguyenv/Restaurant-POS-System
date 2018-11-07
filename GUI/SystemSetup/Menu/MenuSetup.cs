@@ -143,6 +143,11 @@ namespace GUI.SystemSetup.Menu
                 sender.MenuItem = addFoodDialog.MenuItem;
             }
         }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

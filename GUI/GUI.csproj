@@ -62,6 +62,12 @@
     <Compile Include="AddDiscountDialog.Designer.cs">
       <DependentUpon>AddDiscountDialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeTable.Designer.cs">
+      <DependentUpon>ChangeTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="SystemSetup\Menu\AddMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +200,9 @@
     <Compile Include="Utilities\UtilsImage.cs" />
     <EmbeddedResource Include="AddDiscountDialog.resx">
       <DependentUpon>AddDiscountDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeTable.resx">
+      <DependentUpon>ChangeTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Control\MenuItemControl.resx">
       <DependentUpon>MenuItemControl.cs</DependentUpon>
