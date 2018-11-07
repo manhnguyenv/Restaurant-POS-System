@@ -207,5 +207,10 @@ namespace GUI.StaffWorking
             Button btn = (Button)sender;
             new AddDiscountDialog(order).ShowDialog();
         }
+
+        private void btnChangeTable_Click(object sender, EventArgs e)
+        {
+            new ChangeTable(this.order).Show();
+        }
     }
 }

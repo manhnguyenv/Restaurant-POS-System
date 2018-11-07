@@ -169,6 +169,7 @@
             this.btnChangeTable.TabIndex = 3;
             this.btnChangeTable.Text = "Change table";
             this.btnChangeTable.UseVisualStyleBackColor = true;
+            this.btnChangeTable.Click += new System.EventHandler(this.btnChangeTable_Click);
             // 
             // tableLayoutPanel2
             // 
